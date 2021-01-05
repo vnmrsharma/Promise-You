@@ -1,0 +1,36 @@
+Question
+
+Write a program to check wether the sum of integers upto (n-1)th term entered in an array is equal to the nth number or not, if true then print the sum of all n terms else print the sum upto (n-1)th term only.
+Example
+Input: 1,2,3,4,5
+Output: 15
+
+Solution : 
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,j,sum=0;
+printf("Enter the Lengthg of array - ");
+scanf("%d",&j);
+int arr[j];
+printf("\nEnter the Elements\n");
+for(i=0;i<j;i++)
+{
+scanf("%d",&arr[i]);
+}
+for(i=0;i<j-1;i++)
+{
+sum=sum+arr[i];
+}
+if(arr[i]==sum)
+{
+printf("The sum upto Nth term is %d",sum+arr[i]);
+}
+else 
+{
+printf("The sum upto (N-1)th term is %d",sum);
+}
+return 0;
+}
