@@ -1,0 +1,35 @@
+Question
+
+Write a program to check wether the sum of integers upto (n-1)th term entered in an array is equal to the nth number or not, if true then print the sum of all n terms else print the sum upto (n-1)th term only.
+Example
+Input: 1,2,3,4,5
+Output: 15
+
+Solution : 
+#include <iostream> 
+using namespace std; 
+int main()
+{
+int i,j,sum=0;
+cout<<"Enter the Lengthg of array - ";
+cin>>j;
+int arr[j];
+cout<<"\nEnter the Elements\n";
+for(i=0;i<j;i++)
+{
+cin>>arr[i];
+}
+for(i=0;i<j-1;i++)
+{
+sum=sum+arr[i];
+}
+if(arr[i]==sum)
+{
+cout<<"The sum upto Nth term is "<<sum+arr[i];
+}
+else 
+{
+cout<<"The sum upto (N-1)th term is"<<sum;
+}
+return 0;
+}
