@@ -1,0 +1,48 @@
+Question:
+
+Write a program to check wether the sum of the entered digits in an array is a perfect square or not, if true print the square root of the sum else print the sum.
+
+Example : 
+Input - 1,2,3,3 
+Output - 3
+
+Solution:
+#include <iostream>
+#include<math.h>
+using  namespace std;
+int main()
+{
+int i,j,sum=0,x;
+cout<<"Enter the Lengthg of array - ";
+cin>>j;
+int arr[j];
+cout<<"\nEnter the Elements\n";
+for(i=0;i<j;i++)
+{
+cin>>arr[i];
+}
+for(i=0;i<j;i++)
+{
+sum+=arr[i];
+}
+for (int i = 1; i <= sum; i++)
+{
+if ( i * i == sum) 
+{
+x = 1;
+break;
+}
+if ( i * i > sum) 
+{
+break;
+} 
+if (x) {
+cout<<"The sum of array is a perfect square of - "<<sqrt(sum);
+} 
+else
+{
+cout<<"The sum of this array is - "<<sum;
+}
+}
+return 0;
+}
