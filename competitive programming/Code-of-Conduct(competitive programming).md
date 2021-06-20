@@ -1,4 +1,4 @@
-#<b><u>Code-of-Conduct(competitive programming)</u><br></b>
+#<b><h1>>u>Code-of-Conduct(competitive programming)</u><br></b>
 <br>
 <b>What to do!<b><br>
 1. Add the codes belonging to the perticualr category only(ie. competitive programming).<br>
