@@ -1,4 +1,5 @@
 #<u>Code-of-Conduct(competitive programming)</u><br>
+<br>
 <b>What to do!<b><br>
 1. Add the codes belonging to the perticualr category only(ie. competitive programming).<br>
 2. There is no barrier in terms of programming language you opt for, kindly go through the folders provided for various languages and chose yours.<br>
