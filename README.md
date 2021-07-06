@@ -17,5 +17,6 @@ The repo Promise-You aims to promote one to code everyday from one year to anoth
   
  # Contact
  If you feel any issue, find yourself free to contact me at vinamrasharma5@gmail.com
+ Alternatively connect me over LinkedIN - http://linkedin.com/in/vinamra-sharma/
  
  
