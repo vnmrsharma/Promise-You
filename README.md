@@ -2,6 +2,7 @@
 The repo Promise-You aims to promote one to code everyday from one year to another , There is no barrier regarding the programming language or the type of problem you chose. The motive behind this repo is to boost up the practice of daily coding and problem solving. This is a promise you do to yourself, So "Be sure about it".
 
 # Code-of-Conduct
+#do not push copied code
 
 # What to do!
 1. Add the codes belonging to the perticualr category in the perticular folder only.<br>
@@ -18,5 +19,7 @@ The repo Promise-You aims to promote one to code everyday from one year to anoth
  # Contact
  If you feel any issue, find yourself free to contact me at vinamrasharma5@gmail.com
  Alternatively connect me over LinkedIN - http://linkedin.com/in/vinamra-sharma/
+ 
+ 
  
  
