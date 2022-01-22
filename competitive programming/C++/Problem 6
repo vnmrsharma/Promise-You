@@ -4,15 +4,15 @@ Write a program print the pattern given in output format below.
 
 Input - 9
 
-Output -	*	*	*	*	*	*	*	*	*	
-                      *						*	
-                                 *				*	
-                                            *		*	
-                                                       *	
-                                            *	*	*	
-                                 *	*	*	*	*	
-                      *	*	*	*	*	*	*	
-           *	*	*	*	*	*	*	*	*	
+    Output -    *	*	*	*	*	*	*	*	*	
+                  *						*	
+                    *				*	
+                      *		*	
+                        *	
+                      *	*	*	
+                    *	*	*	*	*	
+                  *	*	*	*	*	*	*	
+                *	*	*	*	*	*	*	*	*	
 
 Solution:
 #include <iostream>
