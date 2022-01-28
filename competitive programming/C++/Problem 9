@@ -4,10 +4,10 @@ Write a program print the pattern given in output format below.
 
 Input - 7
 
-    Output -  *	*	*	*			*	
-                    *			*	
-                    *			*	
-              *	*	*	*	*	*	*	
+    Output -  *	 *	*	*			*	
+                        *			*	
+                        *			*	
+              *	 *	*	*	*	*	*	
               *			*				
               *			*				
               *			*	*	*	*	
