@@ -5,11 +5,11 @@ Write a program print the pattern given in output format below.
 Input - 6
 
     Output -  * * * * * *	
-	              *	*	*	*	*	
-		              *	*	*	*	
-		              	*	*	*	
-			              	*	*	
-			              		*	
+	        * * * *	*	
+		  * * *	*	
+		    * *	*	
+		      *	*	
+			*	
 
 Solution:
  #include <iostream>
