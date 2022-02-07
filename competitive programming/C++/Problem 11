@@ -1,33 +1,32 @@
 Question:
 
-Write a program to print the Greatest Common Divisor (GCD) and the Lowest Common Multiple (LCM) of the two numbers.
+You are given a number n. You are given a base b. n is a number on base b. Write a program to convert the number n into its corresponding value in decimal number system.
 
-Input - 36
-24
+Input - 111001
+        2
 
-    Output -  12
-    72
+
+Output -  57
 
 Solution:
- #include <iostream>
+ #include<iostream>
 using namespace std;
-
-int main(int argc, char **argv){
-    int n;
-    cin >> n;
-
-    int spaces = 0;
-    int stars = n;
-    
-    for (int i = 1; i <= n; i++){
-        for (int j = 1; j <= spaces; j++){
-            cout << ("\t");
-        }
-        for (int j = 1; j <= stars; j++){
-            cout << ("*\t");
-        }
-        cout << endl;
-        spaces++;
-        stars--;
+int AnyToDec(int n,int b){
+    int power = 1;
+    int ans = 0;
+    while(n>0){
+        int digit = n%10;
+        ans = ans + digit*power;
+        n = n/10;
+        power = power*b;
     }
+    return ans;
+}
+int main(){
+    int n;
+    int b;
+    cin >> n;
+    cin >> b;
+    int res = AnyToDec(n,b);
+    cout<<res<<endl;
 }
